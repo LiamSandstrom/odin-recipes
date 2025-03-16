@@ -1,0 +1,80 @@
+body {
+    font-family: monaco, sans-serif;
+    background-color: rgb(212, 179, 118);
+    font-size: 16px;
+}
+
+img {
+    border-radius: 5%;
+    transition: transform 0.25s ease-in-out;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.margin {
+    margin: 10px 0px 30px 0px;
+}
+
+div.center{
+    display:grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+h1{
+    text-shadow: 1px 2px 1px rgb(135, 129, 129);
+    font-size: 40px;
+}
+
+ul, ol, li{
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color :rgb(93, 83, 209);
+}
+
+a:hover{
+    color: rgb(140, 175, 230);
+}
+
+.hoverbig{
+    transition: transform 0.25s ease-in-out;
+}
+
+.hoverbig:hover {
+    transform: scale(1.05);
+   
+}
+
+.center {
+    text-align: center;
+}
+
+.liststyle li{
+    padding-left: 10px;
+    list-style:inside circle;
+}
+
+.background {
+    background-color: rgb(227, 205, 165);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.background h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.itembackground {
+    background-color: rgb(227, 205, 165);
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+}
+
