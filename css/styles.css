@@ -36,6 +36,7 @@ ul,ol{
     background-color: rgb(209, 184, 138);
     padding: 8px;
     border-radius: 5px;
+    border: 1px solid rgb(152, 144, 144);
 }
 
 a {
