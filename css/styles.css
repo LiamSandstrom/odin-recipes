@@ -52,9 +52,9 @@ a:hover{
     transition: transform 0.25s ease-in-out;
 }
 
-.hoverbig:hover {
+.hoverbig:hover, .hoverbig:focus {
     transform: scale(1.05);
-   
+    border-color: rgb(196, 78, 90);
 }
 
 .center {
@@ -89,3 +89,27 @@ a:hover{
     border-radius: 20px;
 }
 
+.linker{
+    margin: 26px 0 12px 0;
+}
+
+.em-word{
+    color: rgb(196, 26, 72);
+}
+
+.recipe-head{
+
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(84, 75, 75);
+}
+
+.home-btn{
+    display:inline-block;
+    position: fixed;
+    margin: 0 20px;
+    top: 0;
+    background-color: rgb(227, 205, 165);
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-top: 0;
+}
